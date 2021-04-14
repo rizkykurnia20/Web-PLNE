@@ -1,0 +1,633 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #485461;
+  background-image: linear-gradient(135deg, #485461 0%, #28313b 74%);
+  overflow-x: hidden;
+  transform-style: preserve-3d;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 3rem;
+}
+
+.menu {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  width: 350px;
+  margin: 0;
+}
+
+.logo img {
+  padding: 25px;
+  width: 60%;
+  height:60%;
+}
+
+.hamburger-menu {
+  height: 4rem;
+  width: 3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bar {
+  width: 1.9rem;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #eee;
+  transition: 0.5s;
+  position: relative;
+  opacity: 1;
+}
+
+.bar:before,
+.bar:after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: #eee;
+  transition: 0.5s;
+}
+
+.bar:before {
+  transform: translateY(-9px);
+}
+
+.bar:after {
+  transform: translateY(9px);
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  left: 0;
+  z-index: 5;
+  overflow: hidden;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+header {
+  min-height: 100vh;
+  width: 100%;
+
+  position: relative;
+}
+
+.inner {
+  max-width: 50rem;
+  text-align: center;
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 2.7rem;
+  color: #fff
+}
+
+.text p {
+  font-size: 1.5rem;
+}
+
+.selengkapnya{
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.btn-selengkapnya {
+  padding: 0.6rem 1.8rem;
+  background-color: #1179e7;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.btn-selengkapnya:hover {
+  background-color:#fff;
+  border-radius: 50px;
+  color: #1179e7;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.container.active .bar {
+  transform: rotate(360deg);
+  background-color: transparent;
+}
+
+.container.active .bar:before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.container.active .bar:after {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.container.active .main {
+  animation: main-animation 0.5s ease;
+  cursor: pointer;
+  transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+}
+
+
+/*Animasi*/
+@keyframes main-animation {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  }
+}
+/*Akhir dari Animasi*/
+
+.links {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li{
+  padding-left: 10px;
+}
+
+.links li:hover {
+  background: #1f2933;
+  border-radius: 5px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #eee;
+  padding: 0.7rem 0;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: hide 0.5s forwards ease;
+}
+
+.links a:hover {
+  color: yellow;
+  font-size: 14px;
+
+}
+
+.container.active .links a {
+  animation: appear 0.5s forwards ease var(--i);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes hide {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: left;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.shadow.one {
+  z-index: -1;
+  opacity: 0.15;
+}
+
+.shadow.two {
+  z-index: -2;
+  opacity: 0.1;
+}
+
+.container.active .shadow.one {
+  animation: shadow-one 0.6s ease-out;
+  transform: perspective(1300px) rotateY(20deg) translateZ(215px) scale(0.5);
+}
+
+@keyframes shadow-one {
+  0% {
+    transform: translate(0);
+  }
+
+  5% {
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  }
+
+  100% {
+    transform: perspective(1300px) rotateY(20deg) translateZ(215px) scale(0.5);
+  }
+}
+
+.container.active .shadow.two {
+  animation: shadow-two 0.6s ease-out;
+  transform: perspective(1300px) rotateY(20deg) translateZ(120px) scale(0.5);
+}
+
+@keyframes shadow-two {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  }
+
+  100% {
+    transform: perspective(1300px) rotateY(20deg) translateZ(120px) scale(0.5);
+  }
+}
+
+.container.active .main:hover + .shadow.one {
+  transform: perspective(1300px) rotateY(20deg) translateZ(230px) scale(0.5);
+}
+
+.container.active .main:hover {
+  transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
+}
+
+
+
+/* ========================================================================== */
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 2s ease;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.slide-data {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    /*text-align: center;*/
+    color: #fff;
+    padding: 0 20%;
+}
+
+.slide-data .title {
+    /*text-transform: uppercase;*/
+    text-align: left;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.slide-data h5{
+  color: rgb(207,158,11);
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;  
+}
+
+.slide-data p {
+  text-align: left;
+  width: 80%;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.slide-data a{
+ text-decoration: none;
+  color: #fff;
+}
+
+
+
+/* .slide-data button {
+    font-family: "Poppins", serif;
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px 25px;
+    font-size: 20px;
+    transition: 0.4s linear;
+} */
+
+.slide-data button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.slider .arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    transition: 0.4s linear;
+    opacity: 0.2;
+}
+
+.slider .arrows:hover {
+    text-shadow: 0px 0px 10px #1179e7, 0px 0px 10px #1179e7;
+    opacity: 1;
+}
+
+.slider .prev {
+    left: 3%;
+}
+
+.slider .next {
+    right: 3%;
+}
+
+.dots {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.dots span {
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin: 0 6px;
+    background-color: #fff;
+    display: inline-block;
+    transition: 0.4s linear;
+}
+
+.dots span:hover {
+    background-color: #1179e7 !important;
+    border: 2px solid #fff;
+}
+
+.dot-active {
+    background-color: #1179e7 !important;
+    border: 2px solid #fff;
+}
+
+.active, .dot:hover {
+  background-color: #1179e7 !important;
+  border: 2px solid #fff;
+}
+
+.drop-down-ul{
+  /*background: #999;*/
+  position: absolute;
+  right: 135px;
+  width: 170px;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.drop-down-li{
+  padding-right: 10px;
+  text-align: right;
+  position: relative;
+}
+
+.drop-down-li:hover .drop-down-ul{
+  display: initial;
+}
+
+.lengkap{
+  font-weight: 600;
+}
+
+.gambar{
+  height: 100%;
+  width: 100%;
+ object-fit: cover; 
+}
+
+
+
+/*Slide Halaman Utama*/
+.text-hal-utama{
+  text-align: left;
+}
+
+.text-hal-utama h5{
+  margin-bottom: 10px;  
+  color: #0e638e;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text-hal-utama h2{
+  font-size: 12px;       
+  transform: none;
+  margin-bottom: 20px;
+}  
+
+.text-hal-utama p{
+  width: 75%;
+}
+
+.btn-jelajah{
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111;
+  border: 1px solid #0e638e ;
+  background: rgb(14,99,142,0.5); 
+  font-size: 14px;
+  margin: 30px 0;
+}
+
+.btn-jelajah:hover{
+  color: #fff;
+  background-color: rgb(255,255,255, 0.1);
+  transition-delay: 1s;
+}
+
+.btn-jelajah span{
+  position: absolute;
+  display: block;
+  background:#fff;
+}
+
+.btn-jelajah span:nth-child(1){
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.25s;
+}
+
+.btn-jelajah:hover span:nth-child(1){
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.25s;
+}
+
+.btn-jelajah span:nth-child(2){
+  left: 0;
+  top: 0;       
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.25s;
+  transition-delay: 0.25s;
+}q
+
+.btn-jelajah:hover span:nth-child(2){
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.25s;
+}
+
+.btn-jelajah span:nth-child(3){
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.25s;
+  transition-delay: 0.5s;
+}
+
+.btn-jelajah:hover span:nth-child(3){
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+.btn-jelajah span:nth-child(4){
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s;
+  transition-delay: 0.75s;
+}
+
+.btn-jelajah:hover span:nth-child(4){
+  transform: scaleX(1);
+  transform-origin: right;
+  transition: transform 0.25s;
+  transition-delay: 0.75s;
+}
+
+
+/*Akhir dari Slide Halaman Utama*/
+
+.text-hal-utama .title-video{
+  color: #F13F01;
+}
+

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "configbhinaya"
+AuthUserFile "/home/k5038328/.htpasswds/public_html/config/passwd"
+require valid-user

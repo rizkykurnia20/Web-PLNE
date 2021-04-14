@@ -1,0 +1,97 @@
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 566
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 567
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 576
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 579
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 580
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 603
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 606
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 607
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 626
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 627
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 628
+[11-Dec-2016 07:19:18 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/k5038328/public_html/config/fungsi_thumb.php:566) in /home/k5038328/public_html/wijaya2/modul/mod_album/aksi_album.php on line 78
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 566
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 567
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 576
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 579
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 580
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 603
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 606
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 607
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 626
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 627
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 628
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/k5038328/public_html/config/fungsi_thumb.php:566) in /home/k5038328/public_html/wijaya2/modul/mod_album/aksi_album.php on line 142
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 566
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 567
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 576
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 579
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 580
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 603
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 606
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 607
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/k5038328/public_html/config/fungsi_thumb.php on line 626
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 627
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 628
+[11-Dec-2016 07:21:53 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/k5038328/public_html/config/fungsi_thumb.php:566) in /home/k5038328/public_html/wijaya2/modul/mod_album/aksi_album.php on line 142
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagecreatefrompng(): '../../../img_album/14ketua.png' is not a valid PNG file in /home/k5038328/public_html/config/fungsi_thumb.php on line 562
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 566
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 567
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 576
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 579
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 580
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 594
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 603
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 606
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 607
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 621
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 626
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 627
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 628
+[11-Dec-2016 07:29:03 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/k5038328/public_html/config/fungsi_thumb.php:562) in /home/k5038328/public_html/wijaya2/modul/mod_album/aksi_album.php on line 142
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagecreatefrompng(): '../../../img_album/81ketua.png' is not a valid PNG file in /home/k5038328/public_html/config/fungsi_thumb.php on line 562
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 566
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 567
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 576
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 579
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 580
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 594
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 603
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 606
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 607
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 621
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 626
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 627
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 628
+[11-Dec-2016 07:29:14 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/k5038328/public_html/config/fungsi_thumb.php:562) in /home/k5038328/public_html/wijaya2/modul/mod_album/aksi_album.php on line 142
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagecreatefrompng(): '../../../img_album/6ketua.png' is not a valid PNG file in /home/k5038328/public_html/config/fungsi_thumb.php on line 562
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 566
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 567
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 576
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 579
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 580
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 594
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 603
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 606
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 607
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 621
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 626
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 627
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 628
+[11-Dec-2016 07:29:24 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/k5038328/public_html/config/fungsi_thumb.php:562) in /home/k5038328/public_html/wijaya2/modul/mod_album/aksi_album.php on line 142
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/k5038328/public_html/config/fungsi_thumb.php on line 558
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../img_album/82get.base64.php.jpeg' is not a valid JPEG file in /home/k5038328/public_html/config/fungsi_thumb.php on line 558
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 566
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 567
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 576
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 579
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 580
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 590
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  Division by zero in /home/k5038328/public_html/config/fungsi_thumb.php on line 603
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/k5038328/public_html/config/fungsi_thumb.php on line 606
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 607
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 617
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 626
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 627
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/k5038328/public_html/config/fungsi_thumb.php on line 628
+[11-Dec-2016 07:51:49 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/k5038328/public_html/config/fungsi_thumb.php:558) in /home/k5038328/public_html/wijaya2/modul/mod_album/aksi_album.php on line 142

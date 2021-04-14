@@ -1,0 +1,125 @@
+.grid-container {
+  display: grid;
+  grid-gap:20px 20px;
+  grid-template-columns: auto auto auto;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-item {
+  box-shadow: 3px 3px 10px -2px rgba(99,99,99,0.35);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 390px;
+  height: 580px;
+}
+
+.item-image {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+
+.item-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.item-desk {
+	padding: 25px;
+	height: 235px;
+}
+
+.item-desk h2{
+	color: #0e638e;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.item-desk ul{
+	padding: 0;
+	margin: 0;
+}
+
+.item-desk ul li {
+	list-style: none;
+	display: inline-block;
+	color: #999;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 8px 10px 8px 0px;
+	letter-spacing: 1px;
+}
+
+.item-desk p{
+	color: #222;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 170%;
+	letter-spacing: 1.5px;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+}
+
+.btn-detberita{
+	padding: 40px 0 0 25px;
+}
+
+.btn-detberita a{
+  color: #fff;
+	background: #0e638e;
+	padding: 8px 20px;
+	border-radius: 50px;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-decoration-line: none;
+	transition: 0.5s;
+}
+
+.grid-item:hover .btn-detberita a{
+  text-decoration-line: none;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.desk-box {
+  display: block;
+  position: absolute;
+  text-align: center;
+  background: #0e638e;
+  top: 25px;
+  padding: 10px;
+}
+
+.desk-box h1{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 5px;
+}
+
+.desk-box p{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.grid-item:hover .item-image img{
+    filter: grayscale(1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}

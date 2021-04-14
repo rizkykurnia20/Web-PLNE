@@ -1,0 +1,545 @@
+/* .btn{
+  font-size: 0.75em;
+  background: #0e638e;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  letter-spacing: 6px;
+}
+
+.btn a{
+  color: #fff;
+  } */
+
+
+
+
+  /* POST SLIDER */ 
+  .row-slider{
+    position: relative;
+  }
+
+  .post-slider {
+    position: relative;
+  }
+
+  .post-slider .slider-title {  
+    color: #111;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 50px 20px 20px 0px;
+
+  }
+
+  .post-slider .next {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: #0e638e;
+    cursor: pointer;
+  }
+
+  .post-slider .prev {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: #0e638e;
+    cursor: pointer;
+  }
+
+  .post-wrapper {
+    width: 84%;
+    height: auto;
+    /* height: 500px; */
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 80px 0px;
+  }
+
+  .post {
+    width: auto;
+    height: 600px; 
+    margin: 0px 10px;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    /* box-shadow: 1rem 1rem 1rem -1rem gray; */
+  }
+
+  .post-image{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+
+  .post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+
+  .post:hover .post-image img{
+    filter: grayscale(1);
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  .post-info {
+    padding: 25px;
+  }
+
+  .post .box{
+    height: 240px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 20px;  
+  }
+
+  .post-info h2{
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 10px 0px 5px 0px;
+  }
+
+  .post-info ul{
+    padding: 0;
+    margin: 0;
+  }
+
+  .post-info ul li{
+    list-style: none;
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 8px 10px 8px 0px;
+    letter-spacing: 1px;
+  }
+
+  .post-info p{
+    color: #222;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 170%;
+    letter-spacing: 1.5px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+
+  .post-info a{
+    color: #fff;
+    background:#0e638e ;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-decoration-line: none;
+    transition: 0.5s;
+  }
+
+  .post:hover .post-info a{
+    text-decoration-line: none;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.5s;
+  }
+
+
+
+  /*Isi Berita*/  /*==========================================*/
+
+  section{
+    padding: 100px;
+  }
+
+  .row{    
+    position: relative;
+    width: 100%;
+    min-height: 1400px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .row .col75{
+    position: relative;
+    height: auto;
+    width: 73%;
+  }
+
+  .row .col25{
+    position: relative;
+    width: 23%;
+  }
+
+  .kategori{
+    padding-bottom: 5px;
+  }
+
+  .kategori a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0e638e;
+  }
+
+  .judul-berita{
+    color: #111;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+
+  .judul-berita span{
+    color: #0e638e;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+
+  .youtube-title{
+    color: #111;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 50px 20px 20px 0px;
+  }
+
+  .tanggal span{
+    color: #FF6550;
+  }
+
+  .icon-sosmed{
+    padding-top: 10px;
+  }
+
+  .image-berita{
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .image-berita img{
+    width: 100%;
+  }
+
+  .caption{
+    width: 100%;
+    text-align: center;
+  }
+
+  .isi-berita{
+    float: left;
+    width: 100%;
+    background-color: #fff; 
+  }
+
+  .fb-like{
+    width: 100%;
+    margin: 25px 0px 40px 0px;
+  }
+
+
+
+  /*Box Pencarian Berita*/
+
+  .search-box{
+    position: relative;    
+    padding: 20px 20px;
+    background-color: #F2F2F2;
+  }
+
+  .search-box input{
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #CFD5DB;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 20px;
+    transition: 1.5s;
+    outline: none;
+  }
+
+  input::placeholder{
+    color: #8E959B;
+    font-weight: 200;
+  }
+
+  .search-box:before{
+    content: "\f002";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 50px;
+    line-height: 50px;
+    color: #CFD5DB;
+    transition: 0.2s;
+  }
+
+  .search-box input:hover{
+    border: 1px solid rgb(14,99,142);
+  }
+
+  .search-box:hover:before {
+    color: rgb(14,99,142);
+  }
+
+  /*Akhir dari Box Pencarian Berita*/
+
+
+  /*Kategori*/
+  .category{
+    margin-top: 30px;
+    height: auto;
+  }
+
+  .category h4{
+    padding: 20px 0px;
+    font-size: 20px;
+    color: #0e638e;
+    font-weight: 500;
+
+  }
+
+  .isi-category{    
+    color: #111;
+    text-decoration: none;    
+    padding-bottom: 20px;   
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .isi-category p:before{
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background: #CFD5DB;
+  }
+
+  .isi-category p {
+    color: #111;
+    font-size: 16px;  
+    font-weight: 300;
+    transition: 0.5s;
+  }
+
+  .isi-category p:hover{
+    color: #0e638e;
+    letter-spacing: 3px;
+  }
+
+  .jumlah{
+    color: #F2F2F2;
+  }
+
+  /*Akhir dari Kategori*/
+
+
+  /*Berita Populer */
+
+  .recent-blog{    
+    height: auto; 
+    padding-bottom: 10px;
+  }
+
+  .recent-blog h4{
+    padding: 20px 0;
+    font-size: 20px;
+    color: #0e638e;
+    font-weight: 500;
+
+  }
+
+  .row-populer{
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+  }
+
+  .col-image{
+    width: 34%;
+    position: relative;
+  }
+
+  .col-image img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+
+  .col-image img:hover{
+     filter: grayscale(1);
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  .col-judul{
+    width: 62%;
+    position: relative;
+  }
+
+  .col-judul a{
+    text-decoration: none;
+    color: #111;
+  }
+
+  .judul-berita1{
+    display: block;
+    padding-bottom: 5px;
+    transition: 0.5s;
+  }
+
+  .col-judul .judul-berita1:hover{
+    color: #0e638e;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    transition: 0.5s;
+  }
+
+  .waktu {
+    font-size: 14px;
+  }
+  .waktu i{
+    color: #A2A2A2;
+  }
+
+  /*Akhir dari Berita Populer*/
+
+
+  /*Video*/
+  .video{
+    height: 200px;
+  }
+
+ 
+  
+  .video h4{
+    padding: 20px 0;
+    font-size: 20px;
+    color: #0e638e;
+    font-weight: 500;
+
+  }
+
+   .row-video{
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+  }
+
+  .col-video{
+    width: 34%;
+    position: relative;
+  }
+
+  .col-deskripsi{
+    width: 64%;
+    position: relative;
+  }
+
+  .my-video{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #999;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .col-deskripsi p{
+    /*padding-top: 10px;*/
+    margin-left: -10px;
+  }
+
+
+
+/*Responsif*/
+
+/*1600*/
+@media (max-width: 1600px){
+  .row-populer{
+    position: relative;
+    width: 100%;
+    display:block;
+    margin: 0 0 20px 0;
+  }
+
+  .col-image{
+    width: 100%;
+    position: relative;
+  }
+
+  .col-judul{
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+
+/*991*/
+@media (max-width: 991px){
+   .row{    
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .row .col75{
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+
+  .row .col25{
+    position: relative;
+    width: 100%;
+  }
+
+  .recent-blog{
+    margin-bottom: -20px;
+  }
+
+  .row-populer{
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+  }
+
+  .col-image{
+    width: 20%;
+   }
+
+  .col-judul{
+    width: 80%;
+  }
+  
+
+}

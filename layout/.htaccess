@@ -1,0 +1,2 @@
+AuthName "bhinaya"
+AuthUserFile "/home/k5038328/.htpasswds/public_html/layout/passwd"
