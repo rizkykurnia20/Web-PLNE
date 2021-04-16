@@ -84,7 +84,8 @@ include "config/koneksi.php";
                 echo "<div class='slide'>
                 <img class='gambar' src=foto_berita/$t[gambar]> 
                 <div class='slide-data'>
-                <h5>Berita Terkini</h5> 
+                <div class=text-hal-utama>
+                <h5 class=title-berita>Berita Terkini</h5> 
                 <h2 class='title'>$t[judul]</h2>                                
                 <p>$isi ... </p> 
                 <a class='btn-jelajah' href=berita-$t[judul_seo].html> 
@@ -93,6 +94,7 @@ include "config/koneksi.php";
                     <span></span> 
                     <span></span> 
                 Selengkapnya</span></a>
+                </div>
                 </div>
                 </div>
                 ";                       

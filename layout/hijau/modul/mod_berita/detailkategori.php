@@ -16,11 +16,7 @@
 				echo "
 				<div class='grid-item'>
 					<div class='item-image'>
-						<img src='foto_berita/$b[gambar]'>
-							<div class='desk-box'>
-							<h1>$tgl_berita</h1>
-							<p>Jan</p>
-							</div>
+						<img src='foto_berita/$b[gambar]'>							
 					</div>
 
 					<div class='item-desk'>
@@ -42,10 +38,6 @@
 
 		</div>
 
-		
-
-
-		
 	</div>
 
 	<div class="col25"><!-- right content -->

@@ -155,7 +155,7 @@ include_once('config_fb.php');
 
    <div class="row-slider">
       <div class='post-slider'>
-        <h2 class='slider-title'><span>B</span>erita Terkini</h2>
+        <h2 class='slider-title'>Berita Terkini</h2>
         <div class='post-wrapper owl-carousel'>
           <?php    
           $terkini = mysql_query("SELECT * FROM berita ORDER BY id_berita DESC LIMIT 5");
@@ -179,7 +179,7 @@ include_once('config_fb.php');
             <p>$isi ...</p>
             </div>
             <div class='btn-berita'>
-            <a href='berita-$t[judul_seo].html'>Read More...</a>
+            <a href='berita-$t[judul_seo].html'>Baca Lebih</a>
             </div>
             </div>
             </div>";

@@ -372,17 +372,16 @@ header {
 }
 
 .slide-data .title {
-    /*text-transform: uppercase;*/
     text-align: left;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 30px;
     color: #fff;
     margin-bottom: 10px;
 }
 
 .slide-data h5{
   color: rgb(207,158,11);
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 500;
   text-align: left;  
 }
@@ -390,9 +389,9 @@ header {
 .slide-data p {
   text-align: left;
   width: 80%;
-    font-size: 18px;
-    font-weight: 100;
-    margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 10px;
 }
 
 .slide-data a{
@@ -540,7 +539,7 @@ header {
   color: #111;
   border: 1px solid #0e638e ;
   background: rgb(14,99,142,0.5); 
-  font-size: 14px;
+  font-size: 12px;
   margin: 30px 0;
 }
 
@@ -581,7 +580,7 @@ header {
   transform-origin: right;
   transition: transform 0.25s;
   transition-delay: 0.25s;
-}q
+}
 
 .btn-jelajah:hover span:nth-child(2){
   transform: scaleX(1);
@@ -630,4 +629,9 @@ header {
 .text-hal-utama .title-video{
   color: #F13F01;
 }
+
+.text-hal-utama .title-berita{
+  color: rgb(207,158,11);
+}
+
 
