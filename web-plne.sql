@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 06, 2021 at 10:22 AM
+-- Generation Time: Apr 20, 2021 at 07:18 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -647,14 +647,15 @@ CREATE TABLE IF NOT EXISTS `playlist` (
   `playlist_seo` varchar(100) COLLATE latin1_general_ci NOT NULL,
   `gbr_playlist` varchar(100) COLLATE latin1_general_ci NOT NULL,
   `aktif` enum('Y','N') COLLATE latin1_general_ci NOT NULL DEFAULT 'Y'
-) ENGINE=MyISAM AUTO_INCREMENT=64 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=65 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
 
 --
 -- Dumping data for table `playlist`
 --
 
 INSERT INTO `playlist` (`id_playlist`, `jdl_playlist`, `username`, `playlist_seo`, `gbr_playlist`, `aktif`) VALUES
-(63, 'Video Seputar PLN Enjinirng', 'admin', 'video-seputar-pln-enjinirng', '590057Black Cool 2020 Wallpaper Hd 48859 Baltana.jpg', 'Y');
+(63, 'Video Seputar PLN Enjinirng', 'admin', 'video-seputar-pln-enjinirng', '590057Black Cool 2020 Wallpaper Hd 48859 Baltana.jpg', 'Y'),
+(64, 'Tes 2', 'admin', 'tes-2', '642333service-img.jpg', 'Y');
 
 -- --------------------------------------------------------
 
@@ -73335,7 +73336,10 @@ INSERT INTO `statistik` (`ip`, `tanggal`, `hits`, `online`) VALUES
 ('::1', '2021-03-09', 2, '1615233995'),
 ('::1', '2021-03-25', 1, '1616661628'),
 ('::1', '2021-03-29', 2, '1616986912'),
-('::1', '2021-03-30', 1, '1617088173');
+('::1', '2021-03-30', 1, '1617088173'),
+('::1', '2021-04-15', 1, '1618458712'),
+('::1', '2021-04-16', 1, '1618541455'),
+('::1', '2021-04-19', 1, '1618799695');
 
 -- --------------------------------------------------------
 
@@ -73650,7 +73654,7 @@ CREATE TABLE IF NOT EXISTS `video` (
   `tanggal` date NOT NULL,
   `jam` time NOT NULL,
   `tagvid` varchar(100) COLLATE latin1_general_ci NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
 
 --
 -- Dumping data for table `video`
@@ -73660,7 +73664,8 @@ INSERT INTO `video` (`id_video`, `id_playlist`, `username`, `jdl_video`, `video_
 (3, 0, 'bhinaya', '', '', '', '', '', '', 1, 'Selasa', '2016-03-22', '12:09:43', ''),
 (4, 0, 'bhinaya', 'Company Frofile STIK-PTIK', 'company-frofile-stikptik', '', '', '', 'https://www.youtube.com/watch?v=N5NVoZZNaBQ', 1, 'Selasa', '2016-03-22', '12:18:29', ''),
 (6, 0, 'bhinaya', 'Menerima Kunjungan Delegasi Komisi Kepolisian Thailand Ke STIK', 'menerima-kunjungan-delegasi-komisi-kepolisian-thailand-ke-stik', '', '', '', 'https://www.youtube.com/watch?v=sZWb2J5SD9w', 1, 'Selasa', '2016-04-26', '10:32:48', ''),
-(10, 61, 'admin', 'Achievement of PLN Enjiniring', 'achievement-of-pln-enjiniring', '<span style="color: #030303; font-family: Roboto, Arial, sans-serif; font-size: 14px; white-space: pre-wrap; background-color: #f9f9f9">Tepat pada tanggal 3 Oktober 2002, PLN Enjiniring lahir dengan tujuan menjadi perusahaan yang bergerak dibidang jasa konsultansi enjiniring ketenagalistrikan yang mampu bertumbuh kembang dan memenuhi harapan stakeholder.\r\nPerjalanan dan perkembangan PLN Enjiniring tercermin dari berbagai penghargaan dan keberhasilan yang telah diperoleh selama 18 tahun ini.</span>\r\n', '', '', 'https://www.youtube.com/embed/JXTv95keXiY', 1, 'Senin', '2021-03-08', '11:38:29', '');
+(10, 61, 'admin', 'Achievement of PLN Enjiniring', 'achievement-of-pln-enjiniring', '<span style="color: #030303; font-family: Roboto, Arial, sans-serif; font-size: 14px; white-space: pre-wrap; background-color: #f9f9f9">Tepat pada tanggal 3 Oktober 2002, PLN Enjiniring lahir dengan tujuan menjadi perusahaan yang bergerak dibidang jasa konsultansi enjiniring ketenagalistrikan yang mampu bertumbuh kembang dan memenuhi harapan stakeholder.\r\nPerjalanan dan perkembangan PLN Enjiniring tercermin dari berbagai penghargaan dan keberhasilan yang telah diperoleh selama 18 tahun ini.</span>\r\n', '', '', 'https://www.youtube.com/embed/JXTv95keXiY', 1, 'Senin', '2021-03-08', '11:38:29', ''),
+(11, 63, 'admin', 'Profil PLN ENJINIRING', 'profil-pln-enjiniring', 'Testing\r\n', '989105service-img.jpg', '', 'https://youtube.com/embed/1xO9mZ9VooI', 11, 'Jumat', '2021-04-16', '09:53:37', '');
 
 --
 -- Indexes for dumped tables
@@ -73992,7 +73997,7 @@ MODIFY `id_pasangiklan` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=30;
 -- AUTO_INCREMENT for table `playlist`
 --
 ALTER TABLE `playlist`
-MODIFY `id_playlist` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=64;
+MODIFY `id_playlist` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=65;
 --
 -- AUTO_INCREMENT for table `poling`
 --
@@ -74027,7 +74032,7 @@ MODIFY `id_umod` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=350;
 -- AUTO_INCREMENT for table `video`
 --
 ALTER TABLE `video`
-MODIFY `id_video` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
+MODIFY `id_video` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=12;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
