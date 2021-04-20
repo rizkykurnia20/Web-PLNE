@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --accent: #3DB45E;
     --dark: #17191D;
     --light: #f4f4f4;
@@ -13,13 +13,7 @@ p, button, h1, h4 {
 p, h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-}
-
-h4, button {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-}
+} */
 
 h1 {
     font-size: 48px;
@@ -30,17 +24,8 @@ p, h4 {
     font-size: 18px;
 }
 
-button {
-    cursor: pointer;
-    transition: var(--ease);
-}
-
-button:hover {
-    transform: scale(1.02);
-}
-
 .wrapper {
-    background-color: #17191D;
+    background-color:#fff;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -61,10 +46,6 @@ button:hover {
 
 .playlist__one {
     grid-area: playlist__one;
-}
-
-.playlist__two {
-    grid-area: playlist__two;
 }
 
 .playlist__title {
@@ -93,12 +74,12 @@ button:hover {
 
 .video i {
     cursor: pointer;
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: var(--light);
+    color: #0e638e;
     opacity: 0.85;
     transition: var(--ease);
 }

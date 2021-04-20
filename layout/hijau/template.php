@@ -32,7 +32,7 @@
   <link rel="stylesheet" type="text/css" href="<?= "layout/hijau/css/detail-berita.css" ?>">
   <link rel="stylesheet" type="text/css" href="<?= "layout/hijau/css/berita/berita.css" ?>">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="layout/hijau/css/video/playlist.css">
   <link rel="stylesheet" href="layout/hijau/css//video/venobox.css" type="text/css" media="screen" />
 

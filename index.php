@@ -41,7 +41,7 @@ include "config/koneksi.php";
             ?>
           </div>
           <div class="hamburger-menu">
-            <div class="bar"></div> 
+            <div class="bar"></div>
           </div>
         </div>
       </div>
@@ -61,11 +61,11 @@ include "config/koneksi.php";
                   <p>
                      Melakukan Bisnis di Bidang Teknik, Pengadaan dan Konstruksi (EPC), Operasi dan Pemeliharaan di Sektor Listrik Serta Non-Listrik dengan Memperkuat Layanan dan Meningkatkan Kualitas Sumber Daya Manusia.
                   </p>
-                  <a class="btn-jelajah" href="home"> 
+                  <a class="btn-jelajah" href="home">
                     <span></span>
                     <span></span>
-                    <span></span>  
-                    <span></span> 
+                    <span></span>
+                    <span></span>
                     Jelajahi
                   </a>
                   </div>
@@ -75,30 +75,30 @@ include "config/koneksi.php";
               <?php
               $terkini=mysql_query("SELECT * FROM berita WHERE headline='Y' ORDER BY id_berita DESC LIMIT 2");
 
-              while($t=mysql_fetch_array($terkini)){      
+              while($t=mysql_fetch_array($terkini)){
 
-                $isi_berita = strip_tags($t['isi_berita']); 
-                $isi = substr($isi_berita,0,150); 
-                $isi = substr($isi_berita,0,strrpos($isi," ")); 
+                $isi_berita = strip_tags($t['isi_berita']);
+                $isi = substr($isi_berita,0,150);
+                $isi = substr($isi_berita,0,strrpos($isi," "));
 
                 echo "<div class='slide'>
-                <img class='gambar' src=foto_berita/$t[gambar]> 
+                <img class='gambar' src=foto_berita/$t[gambar]>
                 <div class='slide-data'>
                 <div class=text-hal-utama>
-                <h5 class=title-berita>Berita Terkini</h5> 
-                <h2 class='title'>$t[judul]</h2>                                
-                <p>$isi ... </p> 
-                <a class='btn-jelajah' href=berita-$t[judul_seo].html> 
+                <h5 class=title-berita>Berita Terkini</h5>
+                <h2 class='title'>$t[judul]</h2>
+                <p>$isi ... </p>
+                <a class='btn-jelajah' href=berita-$t[judul_seo].html>
                  <span></span>
                     <span></span>
-                    <span></span> 
-                    <span></span> 
+                    <span></span>
+                    <span></span>
                 Selengkapnya</span></a>
                 </div>
                 </div>
                 </div>
-                ";                       
-              } 
+                ";
+              }
               ?>
 
                <div class="slide">
@@ -110,11 +110,11 @@ include "config/koneksi.php";
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.
                   </p>
-                  <a class="btn-jelajah" href="hal-beranda.html"> 
+                  <a class="btn-jelajah" href="semua-playlist.html">
                     <span></span>
                     <span></span>
-                    <span></span> 
-                    <span></span> 
+                    <span></span>
+                    <span></span>
                     Jelajahi
                   </a>
                   </div>
@@ -130,11 +130,11 @@ include "config/koneksi.php";
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.
                   </p>
-                  <a class="btn-jelajah" href="hal-beranda.html"> 
+                  <a class="btn-jelajah" href="#">
                     <span></span>
                     <span></span>
-                    <span></span> 
-                    <span></span> 
+                    <span></span>
+                    <span></span>
                     Jelajahi
                   </a>
                   </div>
@@ -153,10 +153,10 @@ include "config/koneksi.php";
             </div> <!-- End of slides -->
 
             <div class="dots">
-              <span class="dot" onClick="currentSlide(1)"></span> 
-              <span class="dot" onClick="currentSlide(2)"></span> 
-              <span class="dot" onClick="currentSlide(3)"></span> 
-              <span class="dot" onClick="currentSlide(4)"></span>     
+              <span class="dot" onClick="currentSlide(1)"></span>
+              <span class="dot" onClick="currentSlide(2)"></span>
+              <span class="dot" onClick="currentSlide(3)"></span>
+              <span class="dot" onClick="currentSlide(4)"></span>
               <span class="dot" onClick="currentSlide(5)"></span>
             </div>
 
@@ -175,21 +175,21 @@ include "config/koneksi.php";
       <div class="links">
         <ul>
           <?php
-          function get_menu($data, $parent = 0) 
+          function get_menu($data, $parent = 0)
           {
             static $i = 1;
             $tab = str_repeat(" ", $i);
-            if (isset($data[$parent])) 
+            if (isset($data[$parent]))
             {
               $html = "$tab<li>";
               $i++;
-              foreach ($data[$parent] as $v) 
+              foreach ($data[$parent] as $v)
               {
                 $child = get_menu($data, $v->id_menu);
                 $html .= "$tab<li class='drop-down-li'>";
 
                 $html .= '<a href="'.$v->link.'" style="--i: 0.05s;">'.$v->nama_menu.'</a>';
-                if ($child) 
+                if ($child)
                 {
                   $i--;
                   $html .= "<ul class='drop-down-ul'>$child";
@@ -216,7 +216,7 @@ include "config/koneksi.php";
       </div>
       <!-- End of Menus -->
 
-    </div> 
+    </div>
     <!-- End of Container -->
   </body>
   </html>
@@ -224,7 +224,7 @@ include "config/koneksi.php";
   <!-- ========================================================================================================= -->
 
   <script type="text/javascript">
-  
+
 
   var slideIndex = 1;
   showslide(slideIndex);
